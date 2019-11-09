@@ -6,7 +6,7 @@ Class Gestionnaire:
      self.code1 = ""
      self.code2 = ""
   def ajout(self):
-     self.user =  input("Entrez votre nom svp\n")
+     self.user = input("Entrez votre nom svp\n")
      self.code1 = input("Entrez votre code\n")
      self.code2 = input("Confirmez votre code\n")
      while self.code1 != self.code2:
