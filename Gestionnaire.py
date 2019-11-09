@@ -1,5 +1,5 @@
 # Mbaiondoum Ngonmiadje
-# 17A513FS l2info
+# 17A513FS l2informatique
 Class Gestionnaire:
   def __init__(self):
      self.user = ""
