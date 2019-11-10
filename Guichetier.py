@@ -1,6 +1,8 @@
 Gestionnaire.py
 # Bemadji Arséne
 #18A874FS
+# KODJIYANOUBA CHRISTIANE
+#18A998FS
 class Guichetier(PersonneBank):
     def __init__ (self, nom, solde=0, montant=0):
         self.montant = montant
