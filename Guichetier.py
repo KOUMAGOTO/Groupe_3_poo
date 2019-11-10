@@ -1,25 +1,22 @@
-Gestionnaire.py
+
 # Bemadji Arséne
 #18A874FS
 # KODJIYANOUBA CHRISTIANE
 #18A998FS
 class Guichetier(PersonneBank):
-    def __init__ (self, nom, solde=0, montant=0):
-        self.montant = montant
-        self.solde = 2000
-    def IdeeSolde(self) :    
-        print("votre solde est:\n", self.solde)
-    def versement(self):
-       montant=input("Saisir le montant à verser\n")
-       montant=int(montant)
-       self.solde += montant
-       print("votre nouveau solde est:\n", self.solde)
-    def retrait(self):
-       somme = input("entrer le montant a retirer\n")
-       somme = int(somme)
-       if somme > self.solde:
-          print("solde insuffisant")
-       else:
-          self.solde -= somme
-          print("retrait de {} effectuer avec succes\n".format(somme))
-          print("nouveau solde est:\n", self.solde) 
+  def __init__(self):
+      self.sold = 9000
+  def solde(self):
+      print("solde disponible est de {0} fcfa ".format(self.sold))
+  def versement(self, montant):
+      self.sold += montant
+      print("versement de {} fcfa".format(montant))
+      self.solde()
+        
+  def retrait(self):
+      som = input("entrer le montant a retirer\n")
+      som = int(som)
+      if som <= self.sold:
+          print("vous avez effectuer un retrait de ", som)
+      else:
+          print("solde insuffisant pour faire le retrait")
