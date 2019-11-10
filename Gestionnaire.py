@@ -1,5 +1,6 @@
 # Mbaiondoum Ngonmiadje
 # 17A513FS l2informatique
+# ALLARAMADJI MBAINDI GHISLAIN 18AFS191FS
 Class Gestionnaire:
   def __init__(self):
      self.user = ""
