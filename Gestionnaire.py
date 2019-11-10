@@ -35,7 +35,7 @@ Class Gestionnaire:
         print("les nouveuax mots de passe sont different veuiller reessayer\n")
          self.code1 = input("entrer votre nouveau mot de passe\n")
          self.code2 = input("confirmer votre nouveau mot de passe\n")
-         print("votre mot de passe a ete modifier avec succes\nvotre nouveau mot de passe est:\n", self.password1)
+         print("votre mot de passe a ete modifier avec succes\nvotre nouveau mot de passe est:\n", self.code1)
          else:
              print("option non disponible") 
           else: 
