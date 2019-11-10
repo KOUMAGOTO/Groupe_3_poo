@@ -1,6 +1,6 @@
 # Mbaiondoum Ngonmiadje  https://youtu.be/l8HFNlblKig
 # 17A513FS l2informatique
-# NGABA PATRICE 18B235FS
+# NGABA PATRICE 18B235FS https://youtu.be/6BkobpI02xs
 # ALLARAMADJI MBAINDI GHISLAIN 18AFS191FS
 class Gestionnaire(PersonneBank):
   def __init__(self):
