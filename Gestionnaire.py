@@ -2,7 +2,7 @@
 # 17A513FS l2informatique
 # NGABA PATRICE 18B235FS
 # ALLARAMADJI MBAINDI GHISLAIN 18AFS191FS
-Class Gestionnaire:
+Class Gestionnaire(personneBank):
   def __init__(self):
      self.user = ""
      self.code1 = ""
