@@ -21,6 +21,6 @@ class PersonneBank:
         self._prenom = p
     nom = property(_get_prenom,_set_prenom)
     def afficher(self):
-        self.nom = input(“veillez entrer votre nom\n”)
-        self.prenom=input(“veillez entrer votre prenom\n”)
+        self.nom = input("veillez entrer votre nom\n")
+        self.prenom=input("veillez entrer votre prenom\n")
         print(“votre nom, prénom est = “)
