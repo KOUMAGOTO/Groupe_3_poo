@@ -41,17 +41,17 @@ Class Gestionnaire:
           else: 
             print("desole ce compte n'existe pas\n")  
   def suprim(self): #defini la fonction supprimer
-     print(veuillez vous identifier pour supprimer votre compte\n")
-     ide = input("entrer votre id\n")
-     code = input("entrez votre mot de passe\")
-     if ide != self.id:
-       Print("compte n'existe pas \n")
-     elif code != self.code1:
-       Print(" compte n'existe pas \n")
-     else:
-       sel.user = ""
-       self.password1 = ""
-       print("votre compte a ete supprime)
+      print(veuillez vous identifier pour supprimer votre compte\n")
+      ide = input("entrer votre id\n")
+      code = input("entrez votre mot de passe\")
+      if ide != self.id:
+         Print("compte n'existe pas \n")
+      elif code != self.code1:
+         Print(" compte n'existe pas \n")
+      else:
+        sel.user = ""
+        self.password1 = ""
+        print("votre compte a ete supprime)
 
 
 ab = Gestion ()
