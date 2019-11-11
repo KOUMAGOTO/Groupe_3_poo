@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov 09 08:57:03 2019
-
+# BEMADJI ARSENE https://youtu.be/VbgENcYfyaM  
+# MATRICULE: 18A874FS
 @author: KODJIYANOUBA CHRISTIANE
 """
 
