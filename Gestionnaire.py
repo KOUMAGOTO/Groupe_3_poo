@@ -33,8 +33,8 @@ class Gestionnaire(PersonneBank):
      self.code2 = input("veuillez confirmer votre nouveau mot de passe\n")
       while self.code1 != self.code2:
         print("les nouveuax mots de passe sont different veuiller reessayer\n")
-         self.code1 = input("entrer votre nouveau mot de passe\n")
-         self.code2 = input("confirmer votre nouveau mot de passe \n")
+         self.code1 = input("Veuillez entrer votre nouveau mot de passe\n")
+         self.code2 = input("Veuillez confirmer votre nouveau mot de passe \n")
          print("votre mot de passe a ete modifier avec succes\nvotre nouveau mot de passe est:\n", self.code1)
          else:
              print("option non disponible") 
@@ -42,8 +42,8 @@ class Gestionnaire(PersonneBank):
             print("desole ce compte n'existe pas\n")  
   def suprim(self): #defini la fonction supprimer
       print("veuillez vous identifier pour supprimer votre compte\n")
-      ide = input("entrer votre id\n")
-      code = input("entrez votre mot de passe\n")
+      ide = input("veuillez entrer votre id\n")
+      code = input("veuillez entrez votre mot de passe\n")
       if ide != self.user:
          Print("compte n'existe pas \n")
       elif code != self.code1:
