@@ -44,7 +44,7 @@ class Gestionnaire(PersonneBank):
       print("veuillez vous identifier pour supprimer votre compte\n")
       ide = input("entrer votre id\n")
       code = input("entrez votre mot de passe\n")
-      if ide != self.id:
+      if ide != self.user:
          Print("compte n'existe pas \n")
       elif code != self.code1:
          Print(" compte n'existe pas \n")
