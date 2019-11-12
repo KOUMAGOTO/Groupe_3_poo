@@ -3,7 +3,7 @@
 # NGABA PATRICE 18B235FS https://youtu.be/6BkobpI02xs
 # ALLARAMADJI MBAINDI GHISLAIN 18AFS191FS
 class Gestionnaire(PersonneBank):
-  def __init__(self):
+  def__init__(self):
      self.user = ""
      self.code1 = ""
      self.code2 = ""
