@@ -31,7 +31,7 @@ def virement(self, montant):
    self.retrait(self)
    montant.versement(self)
    print("le virement a ete effectuer")
-abo = "Guichetier"()
+abo = Guichetier()
 abo.retrait()
 abo.versement(5500)
 abo.virement(2000)
