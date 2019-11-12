@@ -37,9 +37,9 @@ class Gestionnaire(PersonneBank):
          self.code2 = input("Veuillez confirmer votre nouveau mot de passe \n")
          print("votre mot de passe a ete modifier avec succes\nvotre nouveau mot de passe est:\n", self.code1)
          else:
-             print("option non disponible") 
+             print("désoler cette option n'est pas disponible") 
           else: 
-            print("desole ce compte n'existe pas\n")  
+            print("désoler ce compte n'existe pas\n")  
   def suprim(self): #defini la fonction supprimer
       print("veuillez vous identifier pour supprimer votre compte\n")
       ide = input("veuillez entrer votre id\n")
