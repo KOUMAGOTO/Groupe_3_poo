@@ -1,7 +1,7 @@
-#la super classe est écrite par KOUMAGOTO Mboîtam Patrick
+# KOUMAGOTO Mboîtam Patrick
 #Matricule:18A180Fs
 
-class PersonneBank:
+class PersonneBank:  # création de la super classe
     def __init__(self,nom = "",prenom = ""):
         self.nom = nom
         self.prenom = prenom
