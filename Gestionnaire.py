@@ -50,7 +50,7 @@ class Gestionnaire(PersonneBank):
          Print(" compte n'existe pas \n")
       else:
         sel.user = ""
-        self.password1 = ""
+        self.code1 = ""
         print("votre compte a ete supprime)
 
 
