@@ -24,4 +24,6 @@ Issa = Client(12)
 Issa.InfoSolde()
 Issa.versement()
 Issa.retrait()
+Issa.retrait()
+Issa.retrait()
 Issa.versement ():
