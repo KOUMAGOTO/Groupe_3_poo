@@ -1,5 +1,5 @@
-Class C(PersonneBank):hefAgence
+Class ChefAgence (PersonneBank):
   def __init__(self)
- sf e.lGuetierich
-self .Gestionnaire
-self .Controleur
+   self .Guichetier = " "
+   self .Gestionnaire = " "
+   self .Controleur = " "
