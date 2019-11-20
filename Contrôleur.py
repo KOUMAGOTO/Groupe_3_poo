@@ -1,6 +1,8 @@
 #cette sous-classe est écrite par DOUMNINGA KLAMTE ARISTIDE
 #Matricule 18B598FS
-class controleur (PersonneBank):
+# Sous classe controleur
+
+class Controleur (PersonneBank):
     solde=int(input("solde"))
     montant=int(input("montant"))
     if solde<=0:
